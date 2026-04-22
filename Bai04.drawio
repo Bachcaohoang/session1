@@ -1,0 +1,93 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Trang-1" id="558Mtc2YcHRD1TXMRwaU">
+    <mxGraphModel dx="1030" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Wh9XW5Wj_-NFwADT-OHS-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h2 data-section-id=&quot;19imvf9&quot; data-start=&quot;95&quot; data-end=&quot;132&quot;&gt;So sánh 2 cách thiết kế ADDRESS&lt;/h2&gt;&lt;br/&gt;&lt;div class=&quot;TyagGW_tableContainer&quot;&gt;&lt;div tabindex=&quot;-1&quot; class=&quot;group TyagGW_tableWrapper flex flex-col-reverse w-fit&quot;&gt;&lt;table data-start=&quot;134&quot; data-end=&quot;905&quot; class=&quot;w-fit min-w-(--thread-content-width)&quot;&gt;&lt;thead data-start=&quot;134&quot; data-end=&quot;233&quot;&gt;&lt;tr data-start=&quot;134&quot; data-end=&quot;233&quot;&gt;&lt;th data-start=&quot;134&quot; data-end=&quot;145&quot; data-col-size=&quot;sm&quot; class=&quot;&quot;&gt;Tiêu chí&lt;/th&gt;&lt;th data-start=&quot;145&quot; data-end=&quot;194&quot; data-col-size=&quot;md&quot; class=&quot;&quot;&gt;Cách 1: Thuộc tính phức hợp (gắn vào STUDENTS)&lt;/th&gt;&lt;th data-start=&quot;194&quot; data-end=&quot;233&quot; data-col-size=&quot;md&quot; class=&quot;&quot;&gt;Cách 2: Tách thành thực thể ADDRESS&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody data-start=&quot;333&quot; data-end=&quot;905&quot;&gt;&lt;tr data-start=&quot;333&quot; data-end=&quot;455&quot;&gt;&lt;td data-start=&quot;333&quot; data-end=&quot;356&quot; data-col-size=&quot;sm&quot;&gt;&lt;strong data-start=&quot;335&quot; data-end=&quot;355&quot;&gt;Độ dễ khi vẽ ERD&lt;/strong&gt;&lt;/td&gt;&lt;td data-col-size=&quot;md&quot; data-start=&quot;356&quot; data-end=&quot;413&quot;&gt;Dễ, nhanh, ít thành phần (chỉ cần thêm thuộc tính con)&lt;/td&gt;&lt;td data-col-size=&quot;md&quot; data-start=&quot;413&quot; data-end=&quot;455&quot;&gt;Phức tạp hơn (thêm thực thể + quan hệ)&lt;/td&gt;&lt;/tr&gt;&lt;tr data-start=&quot;456&quot; data-end=&quot;551&quot;&gt;&lt;td data-start=&quot;456&quot; data-end=&quot;478&quot; data-col-size=&quot;sm&quot;&gt;&lt;strong data-start=&quot;458&quot; data-end=&quot;477&quot;&gt;Tổ chức dữ liệu&lt;/strong&gt;&lt;/td&gt;&lt;td data-col-size=&quot;md&quot; data-start=&quot;478&quot; data-end=&quot;513&quot;&gt;Dữ liệu nằm chung trong STUDENTS&lt;/td&gt;&lt;td data-col-size=&quot;md&quot; data-start=&quot;513&quot; data-end=&quot;551&quot;&gt;Dữ liệu được chuẩn hóa, tách riêng&lt;/td&gt;&lt;/tr&gt;&lt;tr data-start=&quot;552&quot; data-end=&quot;677&quot;&gt;&lt;td data-start=&quot;552&quot; data-end=&quot;577&quot; data-col-size=&quot;sm&quot;&gt;&lt;strong data-start=&quot;554&quot; data-end=&quot;576&quot;&gt;Tìm kiếm theo Quận&lt;/strong&gt;&lt;/td&gt;&lt;td data-col-size=&quot;md&quot; data-start=&quot;577&quot; data-end=&quot;625&quot;&gt;Có thể tìm được (vì có thuộc tính Quận riêng)&lt;/td&gt;&lt;td data-col-size=&quot;md&quot; data-start=&quot;625&quot; data-end=&quot;677&quot;&gt;Tìm rất dễ, rõ ràng, có thể tối ưu query tốt hơn&lt;/td&gt;&lt;/tr&gt;&lt;tr data-start=&quot;678&quot; data-end=&quot;813&quot;&gt;&lt;td data-start=&quot;678&quot; data-end=&quot;719&quot; data-col-size=&quot;sm&quot;&gt;&lt;strong data-start=&quot;680&quot; data-end=&quot;718&quot;&gt;Mở rộng (nhiều địa chỉ / thay đổi)&lt;/strong&gt;&lt;/td&gt;&lt;td data-col-size=&quot;md&quot; data-start=&quot;719&quot; data-end=&quot;764&quot;&gt;Khó mở rộng (mỗi student chỉ có 1 địa chỉ)&lt;/td&gt;&lt;td data-col-size=&quot;md&quot; data-start=&quot;764&quot; data-end=&quot;813&quot;&gt;Linh hoạt (1 student có thể có nhiều địa chỉ)&lt;/td&gt;&lt;/tr&gt;&lt;tr data-start=&quot;814&quot; data-end=&quot;905&quot;&gt;&lt;td data-start=&quot;814&quot; data-end=&quot;842&quot; data-col-size=&quot;sm&quot;&gt;&lt;strong data-start=&quot;816&quot; data-end=&quot;841&quot;&gt;Phù hợp bài toán ship&lt;/strong&gt;&lt;/td&gt;&lt;td data-col-size=&quot;md&quot; data-start=&quot;842&quot; data-end=&quot;859&quot;&gt;Đủ dùng cơ bản&lt;/td&gt;&lt;td data-col-size=&quot;md&quot; data-start=&quot;859&quot; data-end=&quot;905&quot;&gt;Tốt hơn khi cần gom đơn, tối ưu tuyến giao&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="410" width="460" x="180" y="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="QrXf_3YOfuGL9FV-yCLG" name="Trang-2">
+    <mxGraphModel dx="1030" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DFS4qUKRama7fPHYR4Oe-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 27px;&quot;&gt;Cách 2&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="310" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="49bWoo1p_DsqnZN3sEw_-4" edge="1" parent="1" source="DFS4qUKRama7fPHYR4Oe-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VvowSQwrET-5XCUOfmVU-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="49bWoo1p_DsqnZN3sEw_-5" connectable="0" parent="49bWoo1p_DsqnZN3sEw_-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.16" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OT6u2No8kj-152B1b8lB-2" edge="1" parent="1" source="DFS4qUKRama7fPHYR4Oe-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OT6u2No8kj-152B1b8lB-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OT6u2No8kj-152B1b8lB-4" edge="1" parent="1" source="DFS4qUKRama7fPHYR4Oe-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OT6u2No8kj-152B1b8lB-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DFS4qUKRama7fPHYR4Oe-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; font-weight: bolder; color: rgb(0, 0, 0); font-family: &amp;quot;Times New Roman&amp;quot;, serif; font-size: 18.6667px; text-align: start; white-space: pre-wrap; background-color: rgb(255, 255, 255);&quot;&gt;STUDENTS&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="VvowSQwrET-5XCUOfmVU-5" edge="1" parent="1" source="VvowSQwrET-5XCUOfmVU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="VvowSQwrET-5XCUOfmVU-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VvowSQwrET-5XCUOfmVU-6" connectable="0" parent="VvowSQwrET-5XCUOfmVU-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="N" vertex="1">
+          <mxGeometry relative="1" x="-0.2133" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VvowSQwrET-5XCUOfmVU-1" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="Cung cấp địa chỉ" vertex="1">
+          <mxGeometry height="80" width="80" x="360" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="VvowSQwrET-5XCUOfmVU-8" edge="1" parent="1" source="VvowSQwrET-5XCUOfmVU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="VvowSQwrET-5XCUOfmVU-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PFu7nsmlWgNzZxAprzkT-2" edge="1" parent="1" source="VvowSQwrET-5XCUOfmVU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PFu7nsmlWgNzZxAprzkT-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="49bWoo1p_DsqnZN3sEw_-2" edge="1" parent="1" source="VvowSQwrET-5XCUOfmVU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Mz3on9Q73Kud7MG2ZfcB-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="49bWoo1p_DsqnZN3sEw_-3" edge="1" parent="1" source="VvowSQwrET-5XCUOfmVU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="49bWoo1p_DsqnZN3sEw_-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OT6u2No8kj-152B1b8lB-5" edge="1" parent="1" source="VvowSQwrET-5XCUOfmVU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VvowSQwrET-5XCUOfmVU-4" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Địa chỉ" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="VvowSQwrET-5XCUOfmVU-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" value="số nhà" vertex="1">
+          <mxGeometry height="80" width="80" x="200" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="PFu7nsmlWgNzZxAprzkT-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" value="Tỉnh" vertex="1">
+          <mxGeometry height="80" width="80" x="300" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="Mz3on9Q73Kud7MG2ZfcB-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" value="Phường" vertex="1">
+          <mxGeometry height="80" width="80" x="420" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="49bWoo1p_DsqnZN3sEw_-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" value="Quận" vertex="1">
+          <mxGeometry height="80" width="80" x="520" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="OT6u2No8kj-152B1b8lB-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" value="FullName" vertex="1">
+          <mxGeometry height="80" width="80" x="160" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="OT6u2No8kj-152B1b8lB-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" value="&lt;u style=&quot;&quot;&gt;&lt;b&gt;ID_STUDENT&lt;/b&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="560" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="OT6u2No8kj-152B1b8lB-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;b&gt;&lt;u&gt;address_id&lt;/u&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="360" y="700" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

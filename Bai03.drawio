@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="i3DHSITsavYD-7dnFZ4c">
+    <mxGraphModel dx="1030" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3OJCRdW75c-dGm9cQvoG-3" edge="1" parent="1" source="3OJCRdW75c-dGm9cQvoG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="3OJCRdW75c-dGm9cQvoG-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3OJCRdW75c-dGm9cQvoG-10" connectable="0" parent="3OJCRdW75c-dGm9cQvoG-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.1086" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3OJCRdW75c-dGm9cQvoG-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Thư viện" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="3OJCRdW75c-dGm9cQvoG-5" edge="1" parent="1" source="3OJCRdW75c-dGm9cQvoG-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="3OJCRdW75c-dGm9cQvoG-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3OJCRdW75c-dGm9cQvoG-11" connectable="0" parent="3OJCRdW75c-dGm9cQvoG-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="N" vertex="1">
+          <mxGeometry relative="1" x="0.1156" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3OJCRdW75c-dGm9cQvoG-2" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="mượn sách" vertex="1">
+          <mxGeometry height="80" width="80" x="340" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="3OJCRdW75c-dGm9cQvoG-7" edge="1" parent="1" source="3OJCRdW75c-dGm9cQvoG-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="3OJCRdW75c-dGm9cQvoG-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3OJCRdW75c-dGm9cQvoG-9" edge="1" parent="1" source="3OJCRdW75c-dGm9cQvoG-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="3OJCRdW75c-dGm9cQvoG-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3OJCRdW75c-dGm9cQvoG-13" edge="1" parent="1" source="3OJCRdW75c-dGm9cQvoG-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="3OJCRdW75c-dGm9cQvoG-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3OJCRdW75c-dGm9cQvoG-4" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;span style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; font-weight: bolder; color: rgb(0, 0, 0); font-family: &amp;quot;Times New Roman&amp;quot;, serif; font-size: 18.6667px; text-align: start; white-space: pre-wrap; background-color: rgb(255, 255, 255);&quot;&gt;LOAN_CARDS&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="310" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="3OJCRdW75c-dGm9cQvoG-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" value="books" vertex="1">
+          <mxGeometry height="80" width="80" x="190" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="3OJCRdW75c-dGm9cQvoG-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" value="&lt;b&gt;&lt;u&gt;ID_CARD&lt;/u&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="340" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="3OJCRdW75c-dGm9cQvoG-14" edge="1" parent="1" source="3OJCRdW75c-dGm9cQvoG-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="3OJCRdW75c-dGm9cQvoG-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3OJCRdW75c-dGm9cQvoG-15" connectable="0" parent="3OJCRdW75c-dGm9cQvoG-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; font-weight: bolder; color: rgb(0, 0, 0); font-family: &amp;quot;Times New Roman&amp;quot;, serif; font-size: 18.6667px; text-align: start; white-space: pre-wrap; background-color: rgb(255, 255, 255);&quot;&gt;STATUS&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.36" as="geometry">
+            <mxPoint y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3OJCRdW75c-dGm9cQvoG-12" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="trả sách" vertex="1">
+          <mxGeometry height="80" width="80" x="540" y="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
